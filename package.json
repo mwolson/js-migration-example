@@ -1,0 +1,36 @@
+{
+  "name": "migrations",
+  "version": "1.0.0",
+  "description": "Automated scripts to perform source code migrations on tmol-web-spring",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.tm.tmcs/tm/tmol-web-migrations.git"
+  },
+  "author": "Ticketmaster",
+  "license": "MIT",
+  "devDependencies": {
+    "acorn": "^2.4.0",
+    "acorn-jsx": "^2.0.0",
+    "bluebird": "^2.9.34",
+    "falafel": "^1.2.0",
+    "glob": "^5.0.14",
+    "grunt": "^0.4.5",
+    "grunt-shell": "^1.1.2",
+    "jasmine-node": "^1.14.5",
+    "jasmine-pit": "^2.0.2",
+    "load-grunt-tasks": "^3.2.0",
+    "lodash": "^3.10.1",
+    "migrate": "^0.2.2",
+    "rewire": "^2.3.4",
+    "rewrite-files": "^1.0.0",
+    "transform-jest-deps": "^2.1.0",
+    "unwin": "^1.0.1"
+  },
+  "jest": {
+    "testDirectoryName": "test"
+  }
+}
